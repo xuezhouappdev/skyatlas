@@ -31,6 +31,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -228,7 +229,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/middle.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -260,6 +261,7 @@ a:focus {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 0;
+
 }
 .btn-default {
   border: 1px solid #42DCA3;
@@ -316,6 +318,12 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+
+
+
+
+
+
 
 
 /* planets*/
@@ -388,7 +396,7 @@ div.img-circle.img-responsive:hover {
 
 .img-circle.img-responsive h5{
   color: #fdfdfd;
-  margin-top: 35%;
+  margin-top: 42%;
 }
 
 
