@@ -8,7 +8,8 @@ body {
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  background-color: #070707;
+  opacity: 0.8;
 }
 html {
   width: 100%;
@@ -25,6 +26,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+
 }
 p {
   margin: 0 0 25px;
@@ -40,7 +42,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #169ea5;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -400,3 +402,20 @@ div.img-circle.img-responsive:hover {
 }
 
 
+section#about {
+  background: #070707;
+}
+
+#about p, #feature p {
+  font-size:17px;
+}
+
+section#about h2{
+  color: #f0f0f0;
+}
+
+#about ul {
+  list-style: none;
+  padding: 0;
+  font-size:17px;
+}
