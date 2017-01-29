@@ -281,9 +281,6 @@ body {
 
 
 /* planets*/
-#planet {
-
-}
 
 #planet.container {
     padding: 150px 200px 0;
@@ -299,7 +296,8 @@ body {
     opacity: 0.9;
     padding: 1px;
     width: 170px;
-    height: 170px;
+   height:170px;
+
 }
 
 #planet h2 {
@@ -311,7 +309,7 @@ body {
 div.img-circle.img-responsive {
   z-index: 10000;
   width: 162px;
-  height: 162px;
+ height: 162px;
   background: #2c2c2c;
   position: absolute;
   top:0;
@@ -333,6 +331,7 @@ div.img-circle.img-responsive:hover {
   cursor: pointer;
   width: 162px;
   height: 162px;
+
   background: #181818;
   position: absolute;
   top:0;
@@ -373,12 +372,323 @@ section#about h2{
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width:1200px){
+
+
+
+  #planet.container {
+    padding: 150px 100px 0;
+
+    background-size: cover;
+
+
+
+  }
+
+  #planet img.img-circle.img-responsive{
+    cursor: pointer;
+    opacity: 0.9;
+    padding: 1px;
+    width: 170px;
+    height:170px;
+
+  }
+
+  #planet h2 {
+    margin-bottom: 100px;
+  }
+
+
+
+  div.img-circle.img-responsive {
+    z-index: 10000;
+    width: 162px;
+    height: 162px;
+    background: #2c2c2c;
+    position: absolute;
+    top:0;
+    padding: 10px;
+
+    opacity: 0;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+
+
+
+  }
+
+
+  div.img-circle.img-responsive:hover {
+    cursor: pointer;
+    width: 162px;
+    height: 162px;
+
+    background: #181818;
+    position: absolute;
+    top:0;
+    padding: 10px;
+
+    opacity: 0.7;
+    margin-top: 3px;
+    margin-left: 3px;
+
+
+
+
+  }
+
+
+  .img-circle.img-responsive h5{
+    color: #fdfdfd;
+    margin-top: 42%;
+  }
+
 
 }
 
 
-/* ipad*/
+
+@media only screen and (max-width:992px){
+
+
+
+  #planet.container {
+    padding: 150px 50px 0;
+    background-size: cover;
+
+
+
+  }
+
+  #planet img.img-circle.img-responsive{
+    cursor: pointer;
+    opacity: 0.9;
+    padding: 1px;
+    width: 240px;
+    height:240px;
+
+  }
+
+  #planet h2 {
+    margin-bottom: 100px;
+  }
+
+
+
+  div.img-circle.img-responsive {
+    z-index: 10000;
+    width: 232px;
+    height: 232px;
+    background: #2c2c2c;
+    position: absolute;
+    top:0;
+    padding: 10px;
+
+    opacity: 0;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+
+
+
+  }
+
+
+  div.img-circle.img-responsive:hover {
+    cursor: pointer;
+    width: 232px;
+    height: 232px;
+
+    background: #181818;
+    position: absolute;
+    top:0;
+    padding: 10px;
+
+    opacity: 0.7;
+    margin-top: 3px;
+    margin-left: 3px;
+
+
+
+
+  }
+
+
+  .img-circle.img-responsive h5{
+    color: #fdfdfd;
+    margin-top: 42%;
+  }
+
+
+}
+
+
+@media only screen and (max-width:550px){
+
+
+
+  #planet.container {
+    padding: 150px 100px 0;
+
+    background-size: cover;
+
+
+
+  }
+
+  #planet img.img-circle.img-responsive{
+    cursor: pointer;
+    opacity: 0.9;
+    padding: 1px;
+    width: 170px;
+    height:170px;
+
+  }
+
+  #planet h2 {
+    margin-bottom: 100px;
+
+  }
+
+  .intro .intro-body .brand-heading {
+    font-size: 70px;
+  }
+
+
+
+
+  div.img-circle.img-responsive {
+    z-index: 10000;
+    width: 162px;
+    height: 162px;
+    background: #2c2c2c;
+    position: absolute;
+    top:0;
+    padding: 10px;
+
+    opacity: 0;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+
+
+
+  }
+
+
+  div.img-circle.img-responsive:hover {
+    cursor: pointer;
+    width: 162px;
+    height: 162px;
+
+    background: #181818;
+    position: absolute;
+    top:0;
+    padding: 10px;
+
+    opacity: 0.7;
+    margin-top: 3px;
+    margin-left: 3px;
+
+
+
+
+  }
+
+
+  .img-circle.img-responsive h5{
+    color: #fdfdfd;
+    margin-top: 42%;
+  }
+
+
+}
+
+@media only screen and (max-width:414px){
+
+
+
+  #planet.container {
+    padding: 150px 20px 0;
+
+    background-size: cover;
+
+
+
+  }
+
+  #planet img.img-circle.img-responsive{
+    cursor: pointer;
+    opacity: 0.9;
+    padding: 1px;
+    width: 130px;
+    height:130px;
+    margin: 0 auto;
+
+  }
+
+  #planet h2 {
+    margin-bottom: 100px;
+
+  }
+
+  .intro .intro-body .brand-heading {
+    font-size: 40px;
+  }
+
+
+
+
+  div.img-circle.img-responsive {
+    z-index: 10000;
+    width: 122px;
+    height: 122px;
+    background: #2c2c2c;
+    position: absolute;
+    top:0;
+    padding: 10px;
+
+    opacity: 0;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+
+
+
+  }
+
+
+  div.img-circle.img-responsive:hover {
+    display: none;
+
+
+
+  }
+
+
+  .img-circle.img-responsive h5{
+    color: #fdfdfd;
+    margin-top: 42%;
+  }
+
+
+}
+
+/*@media only screen and (max-width: 500px) {
+
+}*/
+
+
+/*!* ipad*!
 @media (max-width: 767px) {
   ul.banner-social-buttons li {
     display: block;
@@ -434,18 +744,19 @@ section#about h2{
   }
 
 
-}
+}*/
 
 
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
   #planet.container {
     padding: 151px 103px 0;
     background-size: cover;
   }
 
-}
+}*/
 
 
+/*
 
 @media (max-width: 991px) {
   #planet.container {
@@ -542,3 +853,4 @@ section#about h2{
 
 
 }
+*/
