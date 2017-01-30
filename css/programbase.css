@@ -308,7 +308,9 @@ p.lead {
 
 
     h2.featurette-heading {
-        font-size: 30px;
+        font-size: 25px;
+        margin-right:10px;
+        margin-left: 10px;
     }
 
 
@@ -319,6 +321,8 @@ p.lead {
     .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
         padding:12px;
     }
+
+
 }
 
 

@@ -5,8 +5,8 @@
       <webServer id="dad706dc-be9f-4f3a-96cc-d651b8996272" name="root" url="http://localhost:8888/skyatlas">
         <fileTransfer accessType="LOCAL" />
       </webServer>
-      <webServer id="5f752857-33af-4034-99bd-563a862ca214" name="ehost" url="http://e50.ehosts.com">
-        <fileTransfer host="e50.ehosts.com" port="21" username="admin@skyatlasintl.com">
+      <webServer id="5f752857-33af-4034-99bd-563a862ca214" name="ehost" url="http://skyatlasintl.com">
+        <fileTransfer host="skyatlasintl.com" port="21" password="df98df98df98df99df99df9bdf9fdf9a" username="admin@skyatlasintl.com">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
