@@ -17,6 +17,12 @@ body {
 }
 
 
+h4.lead {
+    text-shadow: 2px 2px #050505
+}
+
+
+
 
 
 
@@ -45,7 +51,7 @@ h6 {
 
 a{
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .wrapper a {
@@ -131,9 +137,10 @@ div.out {
 
 
 .wrapper h2 {
-    font-size: 77px;
+    font-size: 60px;
     color: whitesmoke;
     background: transparent;
+    text-shadow: 5px 5px 20px #bbbbbb
 }
 
 .wrapper p {
@@ -170,7 +177,7 @@ p.lead {
     text-align: justify;
     padding: 25px;
     font-size: 15px;
-    font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -216,7 +223,20 @@ p.lead {
 
     p.lead {
         font-size: 20px;
+
     }
+
+    .row:nth-child(3) {
+        display: table;
+    }
+
+    .row:nth-child(3) [class*="col"] {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
 
 }
 
@@ -237,9 +257,6 @@ p.lead {
 
 
 
-
-
-
     div.out {
         margin-top: 40px;
         margin-left: 10px;
@@ -255,7 +272,31 @@ p.lead {
 
     p.lead {
         font-size: 26px;
+
+
     }
+
+
+
+
+
+    div.row:nth-child(3) {
+        display: table;
+
+    }
+
+
+    div.row:nth-child(3) [class*="col"] {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
+
+
+
+
 
 }
 
